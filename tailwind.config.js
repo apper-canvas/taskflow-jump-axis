@@ -5,11 +5,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {
+extend: {
       colors: {
-        primary: "#5B21B6",
-        secondary: "#EC4899",
-        accent: "#F59E0B",
+        primary: "#1E40AF",
+        secondary: "#0D9488",
+        accent: "#EA580C",
         success: "#10B981",
         warning: "#F59E0B",
         error: "#EF4444",

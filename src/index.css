@@ -23,17 +23,15 @@ h1, h2, h3, h4, h5, h6 {
   background: linear-gradient(135deg, #10B981, #059669);
   color: white;
 }
-
 .Toastify__toast--error {
   background: linear-gradient(135deg, #EF4444, #DC2626);
   color: white;
 }
 
 .Toastify__toast--info {
-  background: linear-gradient(135deg, #3B82F6, #2563EB);
+  background: linear-gradient(135deg, #1E40AF, #1D4ED8);
   color: white;
 }
-
 .Toastify__toast-container {
   z-index: 9999;
 }
@@ -48,12 +46,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: linear-gradient(135deg, #5B21B6, #EC4899);
+  background: linear-gradient(135deg, #1E40AF, #0D9488);
   border-radius: 3px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: linear-gradient(135deg, #4C1D95, #DB2777);
+  background: linear-gradient(135deg, #1D4ED8, #0F766E);
 }
 
 /* Task completion animation */
@@ -85,7 +83,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Gradient text utility */
 .gradient-text {
-  background: linear-gradient(135deg, #5B21B6, #EC4899);
+  background: linear-gradient(135deg, #1E40AF, #0D9488);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -100,13 +98,13 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Button hover effects */
 .btn-primary {
-  @apply bg-gradient-to-r from-primary to-purple-700 hover:from-purple-800 hover:to-primary transform hover:scale-[1.02] active:scale-[0.98] text-white font-medium px-4 py-2 rounded-lg transition-all duration-200;
+  @apply bg-gradient-to-r from-primary to-blue-800 hover:from-blue-900 hover:to-primary transform hover:scale-[1.02] active:scale-[0.98] text-white font-medium px-4 py-2 rounded-lg transition-all duration-200;
 }
 
 .btn-secondary {
-  @apply bg-gradient-to-r from-secondary to-pink-600 hover:from-pink-700 hover:to-secondary transform hover:scale-[1.02] active:scale-[0.98] text-white font-medium px-4 py-2 rounded-lg transition-all duration-200;
+  @apply bg-gradient-to-r from-secondary to-teal-700 hover:from-teal-800 hover:to-secondary transform hover:scale-[1.02] active:scale-[0.98] text-white font-medium px-4 py-2 rounded-lg transition-all duration-200;
 }
 
 .btn-accent {
-  @apply bg-gradient-to-r from-accent to-orange-500 hover:from-orange-600 hover:to-accent transform hover:scale-[1.02] active:scale-[0.98] text-white font-medium px-4 py-2 rounded-lg transition-all duration-200;
+  @apply bg-gradient-to-r from-accent to-orange-700 hover:from-orange-800 hover:to-accent transform hover:scale-[1.02] active:scale-[0.98] text-white font-medium px-4 py-2 rounded-lg transition-all duration-200;
 }
